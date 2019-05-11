@@ -6,15 +6,15 @@ import Decorator.beverages.condimentDecorator.condimentDecorator;
 public class Milk extends condimentDecorator {
     beverages beverage;
 
-    public Milk(beverages beverage){
-        this.beverage=beverage;
+    public Milk(beverages beverage) {
+        this.beverage = beverage;
     }
 
-    public String getDescription(){
+    public String getDescription() {
         return beverage.getDescription() + " + milk";
     }
 
-    public double cost(){
+    public double cost() {
         return beverage.cost() + 1;
     }
 }

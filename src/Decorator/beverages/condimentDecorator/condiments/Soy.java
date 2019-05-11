@@ -6,15 +6,15 @@ import Decorator.beverages.condimentDecorator.condimentDecorator;
 public class Soy extends condimentDecorator {
     beverages beverage;
 
-    public Soy(beverages beverage){
-        this.beverage=beverage;
+    public Soy(beverages beverage) {
+        this.beverage = beverage;
     }
 
-    public String getDescription(){
+    public String getDescription() {
         return beverage.getDescription() + " + soy";
     }
 
-    public double cost(){
+    public double cost() {
         return beverage.cost() + 3;
     }
 }

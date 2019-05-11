@@ -6,15 +6,15 @@ import Decorator.beverages.condimentDecorator.condimentDecorator;
 public class Whip extends condimentDecorator {
     beverages beverage;
 
-    public Whip(beverages beverage){
-        this.beverage=beverage;
+    public Whip(beverages beverage) {
+        this.beverage = beverage;
     }
 
-    public String getDescription(){
+    public String getDescription() {
         return beverage.getDescription() + " + whip";
     }
 
-    public double cost(){
+    public double cost() {
         return beverage.cost() + 2;
     }
 
