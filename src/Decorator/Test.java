@@ -27,5 +27,3 @@ public class Test {
         System.out.println(sixthOrder.getDescription() + " costs: " + sixthOrder.cost());
     }
 }
-
-

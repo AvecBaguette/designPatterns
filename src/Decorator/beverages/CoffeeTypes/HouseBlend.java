@@ -1,13 +1,11 @@
 package Decorator.beverages.CoffeeTypes;
-
 import Decorator.beverages.beverages;
-
-public class HouseBlend extends beverages {
-    public String getDescription() {
+public class HouseBlend extends beverages{
+    public String getDescription(){
         return "House Blend";
     }
 
-    public double cost() {
+    public double cost(){
         return 5;
     }
 }
