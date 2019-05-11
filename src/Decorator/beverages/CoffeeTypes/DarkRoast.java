@@ -6,7 +6,7 @@ public class DarkRoast extends beverages{
     }
 
     public double cost(){
-        return 3.39;
+        return 3.49;
     }
 
 }

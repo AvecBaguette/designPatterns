@@ -6,6 +6,6 @@ public class HouseBlend extends beverages{
     }
 
     public double cost(){
-        return 4.99;
+        return 5;
     }
 }
