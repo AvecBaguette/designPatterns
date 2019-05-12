@@ -1,9 +1,9 @@
 
-package Decorator.beverages.CoffeeTypes;
+package decorator.beverages.coffee.types;
 
-import Decorator.beverages.beverages;
+import decorator.beverages.Beverages;
 
-public class DarkRoast extends beverages {
+public class DarkRoast extends Beverages {
     public String getDescription() {
         return "Dark Roast";
     }

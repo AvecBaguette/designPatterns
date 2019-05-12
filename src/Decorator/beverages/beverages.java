@@ -1,6 +1,6 @@
-package Decorator.beverages;
+package decorator.beverages;
 
-public abstract class beverages {
+public abstract class Beverages {
     String description;
 
     public String getDescription(){

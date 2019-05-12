@@ -1,8 +1,8 @@
-package Decorator.beverages.CoffeeTypes;
+package decorator.beverages.coffee.types;
 
-import Decorator.beverages.beverages;
+import decorator.beverages.Beverages;
 
-public class Decaf extends beverages {
+public class Decaf extends Beverages {
     public String getDescription() {
         return "Decaf";
     }
